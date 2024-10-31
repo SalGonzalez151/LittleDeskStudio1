@@ -7,6 +7,7 @@ import './index.css'
 import Art from './components/art.jsx'
 import Homepage from './components/homepage.jsx'
 import News from './components/news.jsx'
+import NewsPageOne from './components/NewsPageOne.jsx'
 
 const router = createBrowserRouter([
   {

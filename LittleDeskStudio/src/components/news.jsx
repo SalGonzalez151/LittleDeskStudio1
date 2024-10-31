@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import NewsPageOne from './NewsPageOne'
+import './news.css';
 
 
 const articles = [
@@ -8,16 +9,18 @@ const articles = [
 function News() {
     
     return (
-        <div>
-            this is the news!
-            <ul>
+        <Container className='news' style={{backgroundColor: '#131928', minHeight: '100vh'}}>
+        <div >
+            <h1 style={{color: 'white', textAlign: 'center'}} >This is the news!</h1>
+            <ul className="news-list">
                 {articles.map(article => (
                     <li key={article.id}>
-                        <a href={article.url}>{article.title}</a>
+                        <a href={article.url} className='news-link'>{article.title}</a>
                     </li>
                 ))}
             </ul>
         </div>
+        </Container>
     )
 
     

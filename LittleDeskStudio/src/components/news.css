@@ -1,0 +1,11 @@
+.news-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+.news-list {
+   list-style-type: none; 
+   padding-left: 100px;
+}
