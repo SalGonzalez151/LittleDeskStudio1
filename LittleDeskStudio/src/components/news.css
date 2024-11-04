@@ -8,4 +8,8 @@
 .news-list {
    list-style-type: none; 
    padding-left: 100px;
+   font-size: 150%;
+}
+.news-description {
+    font-size: 70%;
 }
