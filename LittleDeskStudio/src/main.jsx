@@ -8,6 +8,7 @@ import Art from './components/art.jsx'
 import Homepage from './components/homepage.jsx'
 import News from './components/news.jsx'
 import NewsPageOne from './components/NewsPageOne.jsx'
+import NewsPageTwo from './components/NewsPageTwo.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,11 @@ const router = createBrowserRouter([
     {
      path: '/NewsPageOne',
      element: <NewsPageOne/>
-    }
+    },
+     {
+      path: '/NewsPageTwo',
+      element: <NewsPageTwo/>
+     }
     ]
   }
 ])
